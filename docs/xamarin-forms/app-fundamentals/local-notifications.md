@@ -289,6 +289,9 @@ Android предлагает множество дополнительных п�
 Класс `iOSNotificationManager` реализует интерфейс `INotificationManager`:
 
 ```csharp
+using Xamarin.Forms;
+using UserNotifications;
+
 [assembly: Dependency(typeof(LocalNotifications.iOS.iOSNotificationManager))]
 namespace LocalNotifications.iOS
 {
